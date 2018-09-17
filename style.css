@@ -45,13 +45,17 @@ img{
   margin-right: auto;
   margin-bottom: 1em;
 }
-.pre-college{
+.yume-nikki{
   float: left;
-  width:50%;
+  width:33%;
 }
-.college-and-future{
+.meta-games{
+  float: center;
+  width:33%;
+}
+.horror-games{
   float: right;
-  width:50%;
+  width:33%;
 }
 @media screen and (max-width: 600px){
   .pre-college{
