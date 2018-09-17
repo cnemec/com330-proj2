@@ -50,18 +50,22 @@ img{
   width:33%;
 }
 .meta-games{
-  float: center;
+  float: left;
   width:33%;
 }
 .horror-games{
-  float: right;
+  float: left;
   width:33%;
+  padding: .5em;
 }
 @media screen and (max-width: 600px){
-  .pre-college{
+  .yume-nikki{
     width:100%;
   }
-  .college-and-future{
+  .meta-games{
+    width:100%;
+  }
+  .horror-games{
     width:100%;
   }
 }
