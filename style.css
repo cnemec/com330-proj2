@@ -31,7 +31,7 @@ h3{
 }
 h4{
   margin-left:1.375em;
-  margin-bottom:8em;
+  margin-bottom:1em;
   color:#aaaaff;
   font-size: 1.2599em;
 }
@@ -45,6 +45,7 @@ footer{
   margin-top: 1em;
   margin-bottom: 1em;
   background-color: #2f2f2f;
+  clear:both;
 }
 img{
   max-width: 95%;
@@ -55,27 +56,27 @@ img{
   margin-bottom: 1em;
 }
 .yume-nikki{
-  float: left;
-  width:37%;
+  background-color: #000000;
 }
 .meta-games{
-  float: left;
-  width:33%;
+
 }
 .horror-games{
-  float: left;
-  width:29%;
-  padding: .25em;
+
 }
-@media screen and (max-width: 600px){
+@media screen and (min-width: 300px){
   .yume-nikki{
-    width:100%;
+    float: left;
+    width:37%;
   }
   .meta-games{
-    width:100%;
+    float: left;
+    width:33%;
   }
   .horror-games{
-    width:100%;
+    float: left;
+    width:29%;
+    padding: .25em;
   }
 }
 @font-face{
