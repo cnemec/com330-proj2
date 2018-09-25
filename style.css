@@ -56,7 +56,7 @@ img{
 }
 .yume-nikki{
   float: left;
-  width:33%;
+  width:37%;
 }
 .meta-games{
   float: left;
@@ -64,7 +64,7 @@ img{
 }
 .horror-games{
   float: left;
-  width:33%;
+  width:29%;
   padding: .25em;
 }
 @media screen and (max-width: 600px){
