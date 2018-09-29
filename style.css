@@ -1,39 +1,44 @@
 html{
-  line-height: 120%;
+  font-size: 1em;
+  line-height: 1.125em;
+  padding-left: 1.125em;
+  padding-right: 1.125em;
 }
+
 h1{
   color:#6666cc;
   font-size: 2em;
+  line-height: 2.25em;
   font-family:impact;
   text-align: center;
-  border: .25em solid #232323;
-  margin-bottom:2em;
+  padding-bottom:2.25em;
 }
 h2{
   color:#8888bb;
   font-size: 1.625em;
   font-family:helvetica;
   text-align: center;
-  margin-bottom: 1.625em;
+  margin-bottom: .875em;
 }
 p{
   color:#e4e4e4;
-  font-size: 1em;
   font-family:Lora;
-  margin-left:1.5em;
 }
 h3{
-  margin-left: 1.5em;
-  margin-bottom: 1em;
+  padding-left: 1.5em;
+  padding-bottom: .703125em;
   color:#9999aa;
   font-size: 1.375em;
+  line-height: 1.546875;
   font-family:helvetica;
 }
 h4{
   margin-left:1.375em;
-  margin-bottom:1em;
+  padding-bottom:.2701125em;
+  padding-top: .5625em;
   color:#aaaaff;
   font-size: 1.2599em;
+  line-height: 1.4173875;
 }
 html{
   background-color:#202020;
@@ -58,7 +63,8 @@ img{
 .yume-nikki{
   background-color: #000000;
   width: 100%;
-  padding:5em;
+  padding-left:5em;
+  padding-right:5em;
 }
 #yume p{
   color:#ffccff;
@@ -68,7 +74,6 @@ img{
 }
 #yume h1{
   color:#ffeeff;
-  border:none;
 }
 #yume h3{
   color:#ffdfff;
@@ -76,19 +81,20 @@ img{
 .meta-games{
   background-color: #ff8800;
   width:100%;
-  padding:5em;
+  padding-left:5em;
+  padding-right:5em;
 }
 #meta p{
   color:#000000;
 }
 #meta h1,h2,h3,h4{
   color:#ffffff;
-  border:none;
 }
 .horror-games{
   background-color: #000000;
   width:100%;
-  padding:5em;
+  padding-left:5em;
+  padding-right:5em;
 }
 #horror p,h1,h2,h3,h4{
   color:#ffffff;
@@ -98,17 +104,17 @@ img{
   .yume-nikki{
     float: left;
     width:35%;
-    padding:1em;
+    padding:.5625;
   }
   .meta-games{
     float: left;
     width:30%;
-    padding:1em;
+    padding:.5625;
   }
   .horror-games{
     float: left;
     width:25%;
-    padding: 1em;
+    padding:.5625;
   }
 }
 @font-face{
