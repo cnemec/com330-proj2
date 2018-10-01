@@ -3,6 +3,7 @@ html{
   line-height: 1.125em;
   padding-left: 1.125em;
   padding-right: 1.125em;
+    background-color:#202020;
 }
 
 h1{
@@ -40,16 +41,10 @@ h4{
   font-size: 1.2599em;
   line-height: 1.4173875;
 }
-html{
-  background-color:#202020;
-}
-body{
-  background-color: #2d2d2d;
-}
 footer{
-  margin-top: 1em;
-  margin-bottom: 1em;
-  background-color: #2f2f2f;
+  padding-top: .5625em;
+  padding-bottom: .5625em;
+  padding-left: 5em;
   clear:both;
 }
 img{
@@ -65,6 +60,7 @@ img{
   width: 100%;
   padding-left:5em;
   padding-right:5em;
+  box-sizing: border-box;
 }
 #yume p{
   color:#ffccff;
@@ -83,6 +79,7 @@ img{
   width:100%;
   padding-left:5em;
   padding-right:5em;
+  box-sizing: border-box;
 }
 #meta p{
   color:#000000;
@@ -95,6 +92,7 @@ img{
   width:100%;
   padding-left:5em;
   padding-right:5em;
+  box-sizing: border-box;
 }
 #horror p,h1,h2,h3,h4{
   color:#ffffff;
@@ -103,17 +101,20 @@ img{
 @media screen and (min-width: 800px){
   .yume-nikki{
     float: left;
-    width:35%;
+    width:36%;
+    padding:.5625;
+  }
+  footer{
     padding:.5625;
   }
   .meta-games{
     float: left;
-    width:30%;
+    width:34%;
     padding:.5625;
   }
   .horror-games{
     float: left;
-    width:25%;
+    width:30%;
     padding:.5625;
   }
 }
@@ -125,3 +126,31 @@ src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.
   com/s/lora/v12/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
 U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+**
+* A quick baseline grid overlay using css+svg.
+* Inspired by [Basehold.it](https://basehold.it/).
+* @author leshido
+*/
+
+body {
+    position: relative;
+}
+
+body::after {
+    /* Change the `height` parameter here to match your base line-height. */
+    background: url('data:image/svg+xml;utf8,<svg height="18" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(0, 255, 255, 0.3)" /></svg>') repeat top left;
+
+    content: "";
+    display: block;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99990;
+    position: absolute;
+}
+
+body:active::after {
+    display: none;
+}
