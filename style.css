@@ -58,8 +58,8 @@ img{
 .yume-nikki{
   background-color: #000000;
   width: 100%;
-  padding-left:5em;
-  padding-right:5em;
+  padding-left:3em;
+  padding-right:3em;
   box-sizing: border-box;
 }
 #yume p{
@@ -81,8 +81,8 @@ img{
 .meta-games{
   background-color: #ff8800;
   width:100%;
-  padding-left:5em;
-  padding-right:5em;
+  padding-left:3em;
+  padding-right:3em;
   box-sizing: border-box;
 }
 #meta p{
@@ -96,8 +96,8 @@ img{
 .horror-games{
   background-color: #000000;
   width:100%;
-  padding-left:5em;
-  padding-right:5em;
+  padding-left:3em;
+  padding-right:3em;
   box-sizing: border-box;
 }
 #horror p,h1,h2,h3,h4{
@@ -109,20 +109,14 @@ img{
   .yume-nikki{
     float: left;
     width:35%;
-    padding:.5625;
-  }
-  footer{
-    padding:.5625;
   }
   .meta-games{
     float: left;
     width:33%;
-    padding:.5625;
   }
   .horror-games{
     float: left;
     width:32%;
-    padding:.5625;
   }
 }
 @font-face{
@@ -138,6 +132,24 @@ U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+F
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
+a:link{
+  color:#eeeeee;
+}
+a:visited{
+  color:#bbbbee;
+}
+a:hover{
+  color:#cf9930;
+}
+a:active{
+  color:#df9930;
+}
+
+
+
+
+
+
 **
 * A quick baseline grid overlay using css+svg.
 * Inspired by [Basehold.it](https://basehold.it/).
