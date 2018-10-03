@@ -12,7 +12,7 @@ h1{
   line-height: 2.25em;
   font-family:impact;
   text-align: center;
-  padding-bottom:2.25em;
+  padding-bottom:1.125em;
 }
 h2{
   color:#8888bb;
@@ -64,15 +64,19 @@ img{
 }
 #yume p{
   color:#ffccff;
+  font-family: 'Arima Madurai', cursive;
 }
 #yume h2{
   color:#eeccee;
+  font-family: 'Coiny', cursive;
 }
 #yume h1{
   color:#ffeeff;
+  font-family: 'Coiny', cursive;
 }
 #yume h3{
   color:#ffdfff;
+  font-family: 'Coiny', cursive;
 }
 .meta-games{
   background-color: #ff8800;
@@ -83,9 +87,11 @@ img{
 }
 #meta p{
   color:#000000;
+  font-family: 'IBM Plex Mono', monospace;
 }
 #meta h1,h2,h3,h4{
   color:#ffffff;
+  font-family: 'Righteous', cursive;
 }
 .horror-games{
   background-color: #000000;
@@ -97,6 +103,7 @@ img{
 #horror p,h1,h2,h3,h4{
   color:#ffffff;
   border:none;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
 @media screen and (min-width: 800px){
   .yume-nikki{
@@ -126,6 +133,11 @@ src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.
   com/s/lora/v12/0QIvMX1D_JOuMwr7Iw.woff2) format('woff2');
 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
 U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
 **
 * A quick baseline grid overlay using css+svg.
 * Inspired by [Basehold.it](https://basehold.it/).
