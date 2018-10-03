@@ -3,7 +3,7 @@ html{
   line-height: 1.125em;
   padding-left: 1.125em;
   padding-right: 1.125em;
-    background-color:#202020;
+  background-color:#202020;
 }
 
 h1{
@@ -105,10 +105,10 @@ img{
   border:none;
   font-family: 'Carrois Gothic SC', sans-serif;
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1200px){
   .yume-nikki{
     float: left;
-    width:36%;
+    width:35%;
     padding:.5625;
   }
   footer{
@@ -116,12 +116,12 @@ img{
   }
   .meta-games{
     float: left;
-    width:34%;
+    width:33%;
     padding:.5625;
   }
   .horror-games{
     float: left;
-    width:30%;
+    width:32%;
     padding:.5625;
   }
 }
