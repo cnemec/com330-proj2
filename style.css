@@ -134,12 +134,17 @@ U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+F
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
 a:link{
   color:#eeeeee;
+  padding: 9px 36px;
+  background-color: #262626;
+  text-align: center;
+  display: inline-block;
 }
 a:visited{
   color:#bbbbee;
 }
 a:hover{
   color:#cf9930;
+  background-color: #111111;
 }
 a:active{
   color:#df9930;
