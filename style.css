@@ -119,6 +119,14 @@ img{
     width:30%;
   }
 }
+video{
+  max-width: 25.59375em;
+  max-height: 14.625em;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: .5625em;
+  padding-bottom: .5625em;
+}
 @font-face{
   font-family: 'Lora';
 font-style: normal;
@@ -149,8 +157,9 @@ a:hover{
 a:active{
   color:#df9930;
 }
-
-
+**
+*It seems like some fonts refuse to be called is it the shared catagory?
+*/
 
 
 
