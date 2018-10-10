@@ -143,21 +143,27 @@ U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+F
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
-#footer a:link{
+#footing ul{
+  list-style:none;
+}
+#footing a:link{
   color:#eeeeee;
   padding: 9px 36px;
   background-color: #262626;
   text-align: center;
   display: inline-block;
+  width:100%;
+  line-height: 2.25em;
 }
-#footer a:visited{
+#footing a:visited{
   color:#bbbbee;
 }
-#footer a:hover{
+#footing a:hover{
   color:#cf9930;
   background-color: #111111;
+  cursor:pointer;
 }
-#footer a:active{
+#footing a:active{
   color:#df9930;
 }
 **
