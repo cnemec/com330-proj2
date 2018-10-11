@@ -1,8 +1,9 @@
 html{
   font-size: 1em;
   line-height: 1.125em;
-  padding-left: 1.125em;
-  padding-right: 1.125em;
+/**  padding-left: 1.125em;
+*  padding-right: 1.125em;
+*/
   background-color:#202020;
 }
 
@@ -26,7 +27,8 @@ p{
   font-family:Lora;
 }
 h3{
-  padding-left: 1.5em;
+  /*padding-left: 1.5em;
+  */
   padding-bottom: .703125em;
   color:#9999aa;
   font-size: 1.375em;
@@ -34,7 +36,8 @@ h3{
   font-family:helvetica;
 }
 h4{
-  margin-left:1.375em;
+  /*margin-left:1.375em;
+*/
   padding-bottom:.2701125em;
   padding-top: .5625em;
   color:#aaaaff;
@@ -44,7 +47,8 @@ h4{
 footer{
   padding-top: .5625em;
   padding-bottom: .5625em;
-  padding-left:1em;
+  /*padding-left:1em;
+  */
   clear:both;
 }
 img{
@@ -145,10 +149,10 @@ U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+F
 @import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
 #footing ul{
   list-style:none;
+  padding: 0em;
 }
 #footing a:link{
   color:#eeeeee;
-  padding: 9px 36px;
   background-color: #262626;
   text-align: center;
   display: inline-block;
