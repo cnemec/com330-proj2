@@ -180,8 +180,7 @@ img{
 }
 
 video{
-  max-width: 21.65625em;
-  max-height: 12.375em;
+
   display: inline-block;
   vertical-align: middle;
   padding-top: .5625em;
